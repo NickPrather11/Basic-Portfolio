@@ -1,9 +1,9 @@
 header{
     height: 80px;
-    background: #fff;
-    border-bottom: 2px solid grey;
+    background: #ffffff;
+    border-bottom: 2px solid #cccccc;
     overflow: auto;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #name{
@@ -12,19 +12,20 @@ header{
     height: 100%;
     float: left;
     margin-left: 150px;
-    color: #fff;
-    background: teal;
+    color: #ffffff;
+    background: #4aaaa5;
     font-size: 30px;
     line-height: 2.4;
 }
 
 #linkAbout, #linkPortfolio, #linkContact{
     float: right;
-    padding: 20px 20px 20px 20px;
+    padding: 20px;
+    color: #777777;
 }
 
 .mainBackground{
-    background: #bbb8;
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/what-the-hex.png);
     width: 100%;
     height: 400px;
     overflow: hidden;
@@ -34,15 +35,15 @@ header{
     position: relative;
     margin: auto;
     margin-top: 10%;
-    background: #fff;
-    border: 1px solid grey;
+    background: #ffffff;
+    border: 1px solid #dddddd;
     width: 960px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
     overflow: auto;
 }
 
 h1{
-    color: teal;
+    color: #4aaaa5;
     margin: 20px;
 }
 
@@ -62,13 +63,13 @@ h1{
 }
 
 #bioText{
-
+    color: #777777;
 }
 
 footer{
     height: 100px;
-    background: #bbb;
-    border-top: 4px solid teal;
+    background: #666666;
+    border-top: 4px solid #4aaaa5;
 }
 
 #nameField{
@@ -84,5 +85,5 @@ footer{
 }
 
 #Submit{
-    
+
 }
