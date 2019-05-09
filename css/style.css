@@ -27,14 +27,15 @@ header{
 .mainBackground{
     background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/what-the-hex.png);
     width: 100%;
-    height: 500px;
+    height: 900px;
     overflow: hidden;
+    flex: 1 0 auto;
 }
 
-.mainBackground #container{
+.mainBackground .container{
     position: relative;
     margin: auto;
-    margin-top: 10%;
+    margin-top: 5%;
     background: #ffffff;
     border: 1px solid #dddddd;
     width: 960px;
@@ -42,12 +43,90 @@ header{
     overflow: auto;
 }
 
+.portfPic{
+    height: 200px;
+    width: 200px;
+}
+
+.portfLabel{
+    text-align: center;
+    width: 200px;
+    height: 20px;
+    color: #ffffff;
+    background: #4aaaa5;
+}
+
+.container #project1{
+    position: relative;
+    border: 1px solid #dddddd;
+    float: left;
+    margin: 20px;
+    overflow: auto;
+}
+
+        #project1 .portfLabel{
+            position: absolute;
+            bottom: 0;
+        }
+
+.container #project2{
+    position: relative;
+    border: 1px solid #dddddd;
+    float: left;
+    margin: 20px;
+    overflow: auto;
+}
+    
+        #project2 .portfLabel{
+            position: absolute;
+            bottom: 0;
+        }
+
+.container #project3{
+    position: relative;
+    border: 1px solid #dddddd;
+    float: left;
+    margin: 20px;
+    overflow: auto;
+}
+    
+        #project3 .portfLabel{
+            position: absolute;
+            bottom: 0;
+        }
+
+.container #project4{
+    position: relative;
+    border: 1px solid #dddddd;
+    float: left;
+    margin: 20px;
+    overflow: auto;
+}
+    
+        #project4 .portfLabel{
+            position: absolute;
+            bottom: 0;
+        }
+
+.container #project5{
+    position: relative;
+    border: 1px solid #dddddd;
+    float: left;
+    margin: 20px;
+    overflow: auto;
+}
+        
+        #project5 .portfLabel{
+            position: absolute;
+            bottom: 0;
+        }
+
 h1{
     color: #4aaaa5;
     margin: 20px;
 }
 
-#container #divider{
+.container #divider{
     position: relative;
     margin: auto;
     margin-bottom: 5px;
@@ -57,8 +136,8 @@ h1{
 }
 
 #bioPic{
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     float: left;
 }
 
@@ -70,10 +149,16 @@ footer{
     height: 100px;
     background: #666666;
     border-top: 4px solid #4aaaa5;
+    flex-shrink: 0;
 }
 
-
-
-#Submit{
-
+#form{
+    margin-left: 10px;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
