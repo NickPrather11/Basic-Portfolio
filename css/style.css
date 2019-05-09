@@ -6,6 +6,11 @@ header{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+  }
+
 #name{
     text-align: center;
     width: 200px;
@@ -42,84 +47,6 @@ header{
     overflow: auto;
 }
 
-.portfPic{
-    height: 200px;
-    width: 200px;
-}
-
-.portfLabel{
-    text-align: center;
-    width: 200px;
-    height: 20px;
-    color: #ffffff;
-    background: #4aaaa5;
-}
-
-.container #project1{
-    position: relative;
-    border: 1px solid #dddddd;
-    float: left;
-    margin: 20px;
-    overflow: auto;
-}
-
-        #project1 .portfLabel{
-            position: absolute;
-            bottom: 0;
-        }
-
-.container #project2{
-    position: relative;
-    border: 1px solid #dddddd;
-    float: left;
-    margin: 20px;
-    overflow: auto;
-}
-    
-        #project2 .portfLabel{
-            position: absolute;
-            bottom: 0;
-        }
-
-.container #project3{
-    position: relative;
-    border: 1px solid #dddddd;
-    float: left;
-    margin: 20px;
-    overflow: auto;
-}
-    
-        #project3 .portfLabel{
-            position: absolute;
-            bottom: 0;
-        }
-
-.container #project4{
-    position: relative;
-    border: 1px solid #dddddd;
-    float: left;
-    margin: 20px;
-    overflow: auto;
-}
-    
-        #project4 .portfLabel{
-            position: absolute;
-            bottom: 0;
-        }
-
-.container #project5{
-    position: relative;
-    border: 1px solid #dddddd;
-    float: left;
-    margin: 20px;
-    overflow: auto;
-}
-        
-        #project5 .portfLabel{
-            position: absolute;
-            bottom: 0;
-        }
-
 h1{
     color: #4aaaa5;
     margin: 20px;
@@ -151,14 +78,4 @@ footer{
     margin-bottom: 0;
     flex-shrink: 0;
 }
-
-#form{
-    margin-left: 10px;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-  }
-  
   
