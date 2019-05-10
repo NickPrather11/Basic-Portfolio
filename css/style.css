@@ -9,6 +9,7 @@ header{
 body {
     display: flex;
     flex-direction: column;
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/what-the-hex.png);
   }
 
 #name{
@@ -30,7 +31,6 @@ body {
 }
 
 .mainBackground{
-    background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/what-the-hex.png);
     width: 100%;
     overflow: hidden;
     flex: 1 0 auto;
@@ -76,6 +76,7 @@ footer{
     background: #666666;
     border-top: 4px solid #4aaaa5;
     margin-bottom: 0;
+    margin-top: 20px;
     flex-shrink: 0;
 }
   
